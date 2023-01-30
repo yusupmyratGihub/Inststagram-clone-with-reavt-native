@@ -2,11 +2,12 @@ import Ionic from 'react-native-vector-icons/Ionicons';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Home from './src/screens/Home';
-import Search from './src/screens/Search';
-import Reels from './src/screens/Reels';
-import Activity from './src/screens/Activity';
-import Profile from './src/screens/Profile';
+import Home from './src/components/screens/Home';
+import Search from './src/components/screens/Search';
+import Reels from './src/components/screens/Reels';
+import Activity from './src/components/screens/Activity';
+import Profile from './src/components/screens/Profile';
+import Status from './src/components/screenComponents/Status';
 
 export default function App() {
   const Stack = createNativeStackNavigator();
